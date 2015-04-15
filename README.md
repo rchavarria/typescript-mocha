@@ -39,4 +39,40 @@ Install mocha and chai TypeScript definition files, with TSD
     node_modules/.bin/tsd query mocha --save --action install
     node_modules/.bin/tsd query chai --save --action install
 
+Create a test, written in TypeScript
+
+    mkdir test
+    vi test/test.ts
+
+Write some tests in it, for example :
+
+    /// <reference path="../typings/mocha/mocha.d.ts" />
+    /// <reference path="../typings/chai/chai.d.ts" />
+    import chai = require('chai');
+    var expect = chai.expect;
+
+    describe('Unit Tests:', () => {
+        describe('2 + 4', () => {
+            it('should be 6', (done) => {
+                expect(2+4).to.equals(6);
+                done();
+            });
+        });
+    });
+
+Compile TypeScript file to JavaScript
+
+    node_modules/.bin/tsc --module commonjs test/test.ts
+
+Run tests with mocha
+
+    node_modules/.bin/mocha
+
+You should see the results :
+
+    Unit Tests:
+        2 + 4
+            √ should be 6
+
+    1 passing (13ms)
 
