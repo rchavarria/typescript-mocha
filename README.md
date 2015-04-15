@@ -34,4 +34,9 @@ Install [mocha] and [chai]. I have a more detail post about [How to set up a Nod
 
     npm install --save mocha chai
 
+Install mocha and chai TypeScript definition files, with TSD
+
+    node_modules/.bin/tsd query mocha --save --action install
+    node_modules/.bin/tsd query chai --save --action install
+
 
