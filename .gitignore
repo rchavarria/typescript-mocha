@@ -1,3 +1,5 @@
 # Vim files
 *.swp
 
+# node modules files
+node_modules

@@ -10,6 +10,16 @@ Project to check if mocha tests can be written in TypeScript
 
 ## Steps 
 
-npm init
+Configure `npm` to handle dependencies
+
+    npm init
+
+Install TypeScript. First, try no to install globally, just for testing
+
+    npm install --save typescript
+
+Check TypeScript installation
+
+    node node_modules/typescript/bin/tsc --version
 
 
