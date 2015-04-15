@@ -22,6 +22,8 @@
   "homepage": "https://github.com/rchavarria/typescript-mocha",
   "dependencies": {
     "typescript": "~1.5.0-alpha",
-    "tsd": "~0.5.7"
+    "tsd": "~0.5.7",
+    "chai": "~2.2.0",
+    "mocha": "~2.2.4"
   }
 }

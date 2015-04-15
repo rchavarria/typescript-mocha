@@ -30,4 +30,8 @@ Check TSD installation
 
     node_modules/.bin/tsd --version
 
+Install [mocha] and [chai]. I have a more detail post about [How to set up a NodeJS project with mocha, chai and sinon]
+
+    npm install --save mocha chai
+
 
