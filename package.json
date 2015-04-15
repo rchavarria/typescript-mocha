@@ -1,0 +1,23 @@
+{
+  "name": "typescript-mocha",
+  "version": "0.0.0",
+  "description": "Project to check if mocha tests can be written in TypeScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rchavarria/typescript-mocha.git"
+  },
+  "keywords": [
+    "mocha",
+    "typescript"
+  ],
+  "author": "Rubén Chavarría",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/rchavarria/typescript-mocha/issues"
+  },
+  "homepage": "https://github.com/rchavarria/typescript-mocha"
+}
