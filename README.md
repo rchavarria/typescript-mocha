@@ -14,12 +14,20 @@ Configure `npm` to handle dependencies
 
     npm init
 
-Install TypeScript. First, try no to install globally, just for testing
+Install [TypeScript]. First, try no to install globally, just for testing
 
     npm install --save typescript
 
 Check TypeScript installation
 
-    node node_modules/typescript/bin/tsc --version
+    node_modules/.bin/tsc --version
+
+Install [TSD]
+
+    npm install --save tsd
+
+Check TSD installation
+
+    node_modules/.bin/tsd --version
 
 
