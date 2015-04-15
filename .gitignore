@@ -3,3 +3,7 @@
 
 # node modules files
 node_modules
+
+# compiled test code to JavaScript
+test/*.js
+
