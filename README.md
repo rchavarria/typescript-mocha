@@ -76,3 +76,9 @@ You should see the results :
 
     1 passing (13ms)
 
+# References
+
+- [Testing with mocha, chai and TypeScript]
+
+[Testing with mocha, chai and TypeScript]: http://dinozafirakos.com/2014/07/21/testing-with-mocha-chai-and-typescript
+
