@@ -80,5 +80,11 @@ You should see the results :
 
 - [Testing with mocha, chai and TypeScript]
 
+# TODOs
+
+- Introduce `gulp`
+- Configure `gulp` to run `mocha`
+- Configure `gulp` to compile TypeScript and then run `mocha`
+
 [Testing with mocha, chai and TypeScript]: http://dinozafirakos.com/2014/07/21/testing-with-mocha-chai-and-typescript
 
